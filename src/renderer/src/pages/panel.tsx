@@ -121,7 +121,7 @@ export function Component() {
   }, [recording])
 
   return (
-    <div className="flex h-screen dark:text-white">
+    <div className="flex mx-3 h-screen dark:text-white">
       {transcribeMutation.isPending ? (
         <div className="flex h-full w-full items-center justify-center">
           <Spinner />
@@ -143,11 +143,11 @@ export function Component() {
                       key={index}
                       className={cn(
                         "h-full w-0.5 shrink-0 rounded-lg",
-                        "bg-red-500 dark:bg-white",
-                        rms === -1000 && "bg-neutral-400 dark:bg-neutral-500",
+                        "bg-green-400 dark:bg-white",
+                        rms === -1000 && "bg-neutral-100 dark:bg-neutral-500",
                       )}
                       style={{
-                        height: `${Math.min(100, Math.max(16, rms * 100))}%`,
+                        height: `${Math.min(20, Math.max(16, rms * 20))}%`,
                       }}
                     />
                   )
