@@ -10,10 +10,11 @@
   position: absolute;
   left: 0.4629em;
   bottom: 0;
-  width: 0.074em;
-  height: 0.2777em;
+  width: 0.014em;
+  height: 0.0777em;
+  margin-bottom: 0.1em;
   border-radius: 0.0555em;
-  background-color: transparent;
+  background-color: #FFF;
   -webkit-transform-origin: center -0.2222em;
   -ms-transform-origin: center -0.2222em;
   transform-origin: center -0.2222em;
